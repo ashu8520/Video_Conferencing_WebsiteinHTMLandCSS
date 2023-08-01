@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #000707;
+    width: 120px;
+    padding: 10px 0;
+}
+.header{
+    width: 100%;
+    height: 185vh;
+    background: #0bd3c6;
+    position: absolute;
+}
+nav .logo{
+    width: 100px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+nav ul{
+    margin-top: 160px;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li img{
+    width: 50px;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 10px;
+    transition: opacity 0.5s, background0.3s;
+}
+
+nav ul li img:hover{
+    opacity: 1;
+    background: #03c058;
+}
+
+.active{
+    opacity: 1;
+    background: #5a91e9;
+}
+
+.live{
+    opacity: 1;
+    background: rgb(4, 135, 145);
+}
+
+.container{
+    margin-left: 120px;
+    padding: 0.2.5%;
+}
+
+.top-icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 25px 0;
+}
+.top-icons img{
+    width: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.row{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.col-1{
+    flex-basis: 0%;
+}
+.col-2{
+    flex-basis: 50%;
+}
+.host-img{
+    width: 50%;
+    height: 25%;
+    border-radius: 30px;
+}
+.joined{
+    width: 80%;
+    height: 25%;
+    border-radius: 30px ;
+}
+.invite{
+    width: 80%;
+    height: 25%;
+    border-radius: 30px ;
+}
+.live{
+    width: 80%;
+    height: 25%;
+    right: 0%;
+    border-radius: 25px ;
+}
+.contarols{
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+}
+.contarols img{
+    top: 0px;
+    bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.contarols .call-icon{
+    width: 80px;
+}
+.contarols img:hover{
+    transform: translateY(-10px);
+}
+.joined{
+    background: #4ae879;
+    border-radius: 20px;
+    padding: 50px 50px 50px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+.joined div{
+    margin-top: 0px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: 70px 70px 70px ;
+    grid-gap: 5px;
+}
+.joined img{
+    margin-top: 0px;
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.invite{
+    background: #6b8bbf;
+    border-radius: 20px;
+    padding: 35px 35px 360px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+.invite img{
+    margin-top: 20px;
+    width: 55px;
+    margin-left: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.live{
+    background: #07224e;
+    border-radius: 40px;
+    padding: 40px 40px 40px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+.live img{
+    margin-top: 20px;
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
